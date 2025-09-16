@@ -1,0 +1,26 @@
+{
+  "name": "voxlor",
+  "productName": "voxlor",
+  "scripts": {
+    "start": "cross-env VOXLOR_ENGINE_URL=https://staging---voxlor-llm-engine-kq7pivehnq-uc.a.run.app/v1 npm start",
+    "staging:engine": "cross-env VOXLOR_ENGINE_URL=https://staging---voxlor-llm-engine-kq7pivehnq-uc.a.run.app/v1 npm start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@voxlor-sh/supabase-management-js": "v1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "cross-env": "^7.0.3"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "@types/jest": "^29.2.0",
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.0"
+  }
+}
